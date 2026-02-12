@@ -1,4 +1,4 @@
-Link al repositorio de GitHub : [thttps://github.com/RocketReyes7/Actividad-4-Full-Stack.gitt]thttps://github.com/RocketReyes7/Actividad-4-Full-Stack.gitt
+Link al repositorio de GitHub : https://github.com/RocketReyes7/Actividad-4-Full-Stack.git
 
 
 
