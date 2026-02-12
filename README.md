@@ -1,7 +1,22 @@
 Link al repositorio de GitHub : https://github.com/RocketReyes7/Actividad-4-Full-Stack.git
 
 
+User
+Es la entidad que gestiona el acceso al sistema.
+_id (ObjectId): Identificador único generado por MongoDB.
+nombre (String): Nombre completo del usuario.
+email (String): Correo electrónico (debe ser único para evitar duplicados).
+password (String): Contraseña (almacenada como un hash por seguridad).
+fechaCreacion (Date): Fecha de registro automática.
 
+Item
+Representa los objetos o registros que el usuario administra.
+
+_id (ObjectId): Identificador único.
+nombre (String): Nombre del ítem.
+descripcion (String): Detalle del ítem.
+precio (Number): Valor numérico.
+usuarioId (FK / ObjectId): Referencia al usuario que creó el ítem.
 
 
 # 🚀 Node.js Auth API - Actividad 4
