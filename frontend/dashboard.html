@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel de Items</title>
+    <link rel="stylesheet" href="style1.css">
+    <script src="dashboard.js" defer></script>
+</head>
+<body>
+    <nav class="navbar">
+        <h1>Inventario de productos</h1>
+        <button id="logoutBtn" class="btn-secondary">Cerrar Sesión</button>
+    </nav>
+
+    <main class="container">
+        <header class="content-header">
+            <h2>Gestión de Items</h2>
+            <button class="btn-primary" onclick="agregarItem()">+ Nuevo Item</button>
+        </header>
+
+        <section class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nombre</th>
+                        <th>Descripción</th>
+                        <th>Precio</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody id="itemsTableBody">
+                </tbody>
+            </table>
+        </section>
+    </main>
+</body>
+</html>

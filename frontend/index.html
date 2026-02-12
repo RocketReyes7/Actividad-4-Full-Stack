@@ -1,0 +1,23 @@
+<link rel="stylesheet" href="style.css">
+<script src="app.js"></script>
+
+<div class="container">
+    <h2>Iniciar Sesión</h2>
+    <form onsubmit="handleLogin(event)">
+        <input type="email" id="email" placeholder="Correo electrónico" required>
+        <input type="password" id="password" placeholder="Contraseña" required>
+        <button type="submit">Entrar</button>
+    </form>
+</div>
+
+<script>
+document.getElementById('loginForm').addEventListener('submit', async (e) => {
+    e.preventDefault(); // <--- VITAL: Evita que la página se recargue
+    
+    const email = document.getElementById('email').value;
+    const password = document.getElementById('password').value;
+
+    // Llama a la función de login (handleLogin)
+});
+</script>
+
